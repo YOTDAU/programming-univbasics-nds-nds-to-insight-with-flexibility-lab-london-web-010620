@@ -66,7 +66,8 @@ def gross_per_studio(collection)
   result = []
   ri = 0
   
-  while ri < collection.length do 
+  while ri < collection.length do
+    
     
   
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
