@@ -36,7 +36,7 @@ end
 # Your code after this point
 
 def movies_with_director_key(name, movies_collection)
-  result = {}
+  result = []
   row_index = 0 
   
   while row_index < movie_collection.length do 
