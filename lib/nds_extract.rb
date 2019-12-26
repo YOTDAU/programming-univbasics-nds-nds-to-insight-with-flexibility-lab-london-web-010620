@@ -42,6 +42,11 @@ def movies_with_director_key(name, movies_collection)
   while row_index < movie_collection.length do 
     result = movie_collection[row_index]
     result << movie_with_director_name(director_name, movie_data)
+    row_index += 1 
+  end
+  results
+end
+
   
   # GOAL: For each Hash in an Array (movies_collection), provide a collection
   # of movies and a directors name to the movie_with_director_name method
@@ -57,7 +62,6 @@ def movies_with_director_key(name, movies_collection)
   # Array of Hashes where each Hash represents a movie; however, they should all have a
   # :director_name key. This addition can be done by using the provided
   # movie_with_director_name method
-end
 
 
 def gross_per_studio(collection)
