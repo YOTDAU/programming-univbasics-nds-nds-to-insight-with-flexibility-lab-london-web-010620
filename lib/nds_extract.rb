@@ -44,7 +44,7 @@ def movies_with_director_key(name, movies_collection)
     result << movie_with_director_name(name, movies)
     row_index += 1 
   end
-  results
+  result
 end
 
   
