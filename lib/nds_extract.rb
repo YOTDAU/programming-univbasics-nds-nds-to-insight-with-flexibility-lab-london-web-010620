@@ -72,7 +72,8 @@ def gross_per_studio(collection)
     if studio = result[studio]
       result[studio] += s_gross
     else
-      
+      result[studio] = s_gross
+    
     
   
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
