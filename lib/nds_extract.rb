@@ -40,7 +40,7 @@ def movies_with_director_key(name, movies_collection)
   row_index = 0 
   
   while row_index < movies_collection.length do 
-    result = movie_collection[row_index]
+    result = movies_collection[row_index]
     result << movie_with_director_name(name, movies)
     row_index += 1 
   end
