@@ -37,6 +37,10 @@ end
 
 def movies_with_director_key(name, movies_collection)
   result = {}
+  row_index = 0 
+  
+  while row_index < movie_collection.length do 
+    
   
   # GOAL: For each Hash in an Array (movies_collection), provide a collection
   # of movies and a directors name to the movie_with_director_name method
