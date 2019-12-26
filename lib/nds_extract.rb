@@ -72,6 +72,7 @@ def gross_per_studio(collection)
     if studio = result[studio]
       result[studio] += s_gross
     else
+      result[studio]
       result[studio] = s_gross
     end
     ri += 1 
