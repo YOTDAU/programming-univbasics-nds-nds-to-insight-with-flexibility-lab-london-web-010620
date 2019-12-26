@@ -84,6 +84,8 @@ def movies_with_directors_set(source)
   result = []
   ri = 0
   
+  while ri < 
+  
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
   # INPUT:
