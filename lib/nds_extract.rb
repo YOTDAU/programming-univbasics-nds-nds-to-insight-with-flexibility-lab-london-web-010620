@@ -68,7 +68,7 @@ def gross_per_studio(collection)
   result = []
   ri = 0
   
-  while ri < movies_with_director_key.length do 
+  while ri < collection.length do 
     
   
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
